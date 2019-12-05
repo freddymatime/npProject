@@ -37,15 +37,16 @@
                </ul>
            </div>
     </nav>
+    <br> 
 
         <div class="container">
             <div class="row" >
                 <div class ="col-lg-12">
-                    <h1>FREE WAY</h1>
+                    <h1> FREE WAY</h1>
                 </div>
             </div>
         </div>
-
+          <br>
         <div class = "container">
             <div class ="row">
                 <div class="col-lg-4">
@@ -54,7 +55,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="" class="btn btn-primary">Go somewhere</a>
+    <a href="" class="btn btn-primary">find a friend</a>
   </div>
 </div>
                 </div>
@@ -64,17 +65,17 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">find a event</a>
   </div>
 </div>
                 </div>
                 <div class="col-lg-4" >
                 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="youth.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">find a coach</a>
   </div>
 </div>
                 </div>
@@ -82,6 +83,25 @@
             </div>
 
         </div>
+
+    <div class = "container">
+      <div class = "row">
+        <div class ="col-lg-12">
+          <br> <br>
+        <button type="button" class="btn btn-primary btn-lg btn-block">connection</button>
+        <br>
+        <button type="button" class="btn btn-secondary btn-lg btn-block">inscription</button>
+        </div>
+        
+
+      </div>
+
+    </div>    
+
+
+  
+
+
 
         
 
