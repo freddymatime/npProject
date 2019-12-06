@@ -88,9 +88,9 @@
       <div class = "row">
         <div class ="col-lg-12">
           <br> <br>
-        <button type="button" class="btn btn-primary btn-lg btn-block">connection</button>
+        <button type="button" class="btn btn-light btn-lg btn-block"><a href="connection.php">connection</a></button>
         <br>
-        <button type="button" class="btn btn-secondary btn-lg btn-block">inscription</button>
+        <button type="button" class="btn btn-light btn-lg btn-block"><a href="inscription.php">inscription</a></button>
         </div>
         
 
