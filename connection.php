@@ -10,16 +10,16 @@
     <title>free way</title>
   </head>
   <body>
-  <form class="form-horizontal">
+  <form class="form-horizontal" >
 <fieldset>
 
 <!-- Form Name -->
 <legend>Form Name</legend>
 
-<!-- Text input-->
+<div  >
 <div class="form-group">
   <label class="col-md-4 control-label" for="username">username</label>  
-  <div class="col-md-4">
+  <div class="col-md-4" >
   <input id="username" name="username" type="text" placeholder="username" class="form-control input-md" required="">
     
   </div>
@@ -43,9 +43,11 @@
     <input type="submit" name="submit">
   </div>
 </div>
+</div>
 
 </fieldset>
 </form>
+ 
 
 
     

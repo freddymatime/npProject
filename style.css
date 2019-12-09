@@ -7,3 +7,7 @@ body{
 h1{
     text-align: center;
 }
+.form-group{
+    display: flex;
+    justify-content: center;
+}
