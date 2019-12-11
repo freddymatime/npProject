@@ -19,7 +19,7 @@
                             <div class="card-header">Register</div>
                             <div class="card-body">
 
-                                <form class="form-horizontal" method="post" action="#">
+                                <form class="form-horizontal" method="post" action="processing.php">
 
                                     <div class="form-group">
                                         <label for="name" class="cols-sm-2 control-label">Your Name</label>
@@ -35,25 +35,26 @@
                                         <div class="cols-sm-10">
                                             <div class="input-group">
                                                 <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                                                <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email" />
+                                                <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email" required/>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="username" class="cols-sm-2 control-label">Username</label>
+                                        <label for="username" class="cols-sm-2 control-label">pseudo</label>
                                         <div class="cols-sm-10">
                                             <div class="input-group">
                                                 <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                                                <input type="text" class="form-control" name="username" id="username" placeholder="Enter your Username" />
+                                                <input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Enter your pseudo" required />
                                             </div>
                                         </div>
+                                        
                                     </div>
                                     <div class="form-group">
                                         <label for="password" class="cols-sm-2 control-label">Password</label>
                                         <div class="cols-sm-10">
                                             <div class="input-group">
                                                 <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                                                <input type="password" class="form-control" name="password" id="password" placeholder="Enter your Password" />
+                                                <input type="password" class="form-control" name="password" id="password" placeholder="Enter your Password" required/>
                                             </div>
                                         </div>
                                     </div>
@@ -62,12 +63,12 @@
                                         <div class="cols-sm-10">
                                             <div class="input-group">
                                                 <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                                                <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Confirm your Password" />
+                                                <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Confirm your Password" required/>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <button type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+                                        <input type="submit" name = "submit" class="btn btn-primary btn-lg btn-block login-button"></button>
                                     </div>
                                     <div class="login-register">
                                         <a href="index.php">Login</a>

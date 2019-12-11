@@ -10,7 +10,7 @@
     <title>free way</title>
   </head>
   <body>
-  <form class="form-horizontal" >
+  <form class="form-horizontal" method = "post" action = "connect.php" >
 <fieldset>
 
 <!-- Form Name -->
@@ -18,9 +18,9 @@
 
 <div  >
 <div class="form-group">
-  <label class="col-md-4 control-label" for="username">username</label>  
+  <label class="col-md-4 control-label" for="username">name</label>  
   <div class="col-md-4" >
-  <input id="username" name="username" type="text" placeholder="username" class="form-control input-md" required="">
+  <input id="name" name="name" type="text" placeholder="name" class="form-control input-md" required="">
     
   </div>
 </div>
@@ -38,9 +38,9 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="confirm password">confirm password</label>
   <div class="col-md-4">
-    <input id="confirm password" name="confirm password" type="password" placeholder="placeholder" class="form-control input-md" required="">
+    <input id="confirm password" name="confirm" type="password" placeholder="confirm" class="form-control input-md" required="">
     <span class="help-block">help</span>
-    <input type="submit" name="submit">
+    <input type="submit" name="submit" value="valider">
   </div>
 </div>
 </div>
