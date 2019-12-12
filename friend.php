@@ -21,42 +21,42 @@
                     <li class="list-group-item">
                         Tennis
                                 <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name="choix[]" value = "tennis"/>
                                         <span class="default"></span>
                                     </label>
                     </li>
                     <li class="list-group-item">
                         Golf
                                                                 <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name="choix []" value="golf" />
                                         <span class="primary"></span>
                                     </label>
                     </li>
                     <li class="list-group-item">
                         football
                                                                 <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name ="choix[]" value="football"/>
                                         <span class="success"></span>
                                     </label>
                     </li>
                     <li class="list-group-item">
                         futsall
                                                                <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name = "choix[]" value="futsall" />
                                         <span class="info"></span>
                                     </label>
                     </li>
                     <li class="list-group-item">
                         running
                                                                <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name ="choix[]" value = "running" />
                                         <span class="warning"></span>
                                     </label>
                     </li>
                     <li class="list-group-item">
                         crossfit
                                                               <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name ="choix[]" value = "crossfit" />
                                         <span class="danger"></span>
                                     </label>
                     </li>
@@ -74,14 +74,14 @@
                     <li class="list-group-item">
                        Ping-pong
                                 <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name = "choix[]" name = "ping-pong"/>
                                         <span class="default"></span>
                                     </label>
                     </li>
                     <li class="list-group-item">
                         Basket-ball
                                                                 <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name = "choix[]"/>
                                         <span class="primary"></span>
                                     </label>
                     </li>
@@ -95,21 +95,21 @@
                     <li class="list-group-item">
                         Fitness
                                                                <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name ="choix[]" value="fitness" />
                                         <span class="info"></span>
                                     </label>
                     </li>
                     <li class="list-group-item">
                         Escalade
                                                                <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name="choix[]" value ="escalade" />
                                         <span class="warning"></span>
                                     </label>
                     </li>
                     <li class="list-group-item">
                         Velo
                                                               <label class="checkbox">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name ="choix[]" value ="velo"/>
                                         <span class="danger"></span>
                                     </label>
                     </li>

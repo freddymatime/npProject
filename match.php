@@ -14,6 +14,18 @@ catch(Exception $e)
 
 // recuperer les cases selectionnées
 
+if (isset ($_POST['choix']))
+    {
+        foreach($_POST['choix'] as $sport)
+        echo $sport;
+    }
+
+
+var_dump($_POST['choix']);
+print_r($_POST['choix']);
+
+
+
 
 
 
