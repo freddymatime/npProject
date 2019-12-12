@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- formulaire selection sport -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,7 +10,7 @@
     <title>free way</title>
   </head>
   <body>
-  <form method ="post" action="" >
+  <form method ="post" action="match.php" >
   <div class="container">
 	<div class="row">
 	    <div class="col-md-6 offset-md-3">

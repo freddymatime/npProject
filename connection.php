@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+  <!--formulaire connection  -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,7 +14,7 @@
   <form class="form-horizontal" method = "post" action = "connect.php" >
 <fieldset>
 
-<!-- Form Name -->
+
 <legend>Form Name</legend>
 
 <div  >
@@ -25,7 +26,7 @@
   </div>
 </div>
 
-<!-- Password input-->
+
 <div class="form-group">
   <label class="col-md-4 control-label" for="password">Password </label>
   <div class="col-md-4">
