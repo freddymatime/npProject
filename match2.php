@@ -17,25 +17,21 @@ catch(Exception $e)
 if (isset ($_POST['choix'])){
 
     $choix = $_POST['choix'];
+    
+    
 
-    $result =$bdd->query("SELECT sport1,sport2,sport3 FROM choice ");
-     while ($rep = $result->fetch())
-     
+    $result =$bdd->query("SELECT ID FROM choice where sport1 = '$choix' or sport2 = '$choix' or sport3 ='$choix' ");
+    while ($rep = $result->fetch())
         {
-            if ($rep['sport1']==$choix OR $choix == $rep['sport2']OR $choix ==$rep['sport3'] )
-            {
-                echo "il y a correspondance";
-            }    
-                 
+            echo $rep['ID'];
         }
 
-     $result->closeCursor();
-     
-   
      
 
+    
 
-   
+
+}
 
 
 
