@@ -20,7 +20,7 @@ if (isset ($_POST['choix'])){
 
     $result =$bdd->query("SELECT sport1,sport2,sport3 FROM choice ");
      while ($rep = $result->fetch())
-     
+
         {
             if ($rep['sport1']==$choix OR $choix == $rep['sport2']OR $choix ==$rep['sport3'] )
             {
@@ -30,25 +30,6 @@ if (isset ($_POST['choix'])){
         }
 
      $result->closeCursor();
-     
-   
-     
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 ?>

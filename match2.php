@@ -18,12 +18,14 @@ if (isset ($_POST['choix'])){
 
     $choix = $_POST['choix'];
     
-    
 
-    $result =$bdd->query("SELECT ID FROM choice where sport1 = '$choix' or sport2 = '$choix' or sport3 ='$choix' ");
+    $result =$bdd->query("SELECT ID FROM choice WHERE sport1 = '$choix[0]' or sport2 = '$choix[0]' or sport3 ='$choix[0]' ");
+
     while ($rep = $result->fetch())
         {
-            echo $rep['ID'];
+            foreach($rep as $element){
+                echo $element."<br>";
+            }
         }
 
      
