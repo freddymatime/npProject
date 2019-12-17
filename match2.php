@@ -21,11 +21,10 @@ if (isset ($_POST['choix'])){
 
     $result =$bdd->query("SELECT ID FROM choice WHERE sport1 = '$choix[0]' or sport2 = '$choix[0]' or sport3 ='$choix[0]' ");
 
+
     while ($rep = $result->fetch())
-        {
-            foreach($rep as $element){
-                echo $element."<br>";
-            }
+        {            
+            echo $rep[0]."<br>";
         }
 
      
