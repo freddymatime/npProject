@@ -10,7 +10,7 @@
     <title>free way</title>
   </head>
   <body>
-  <form method ="post" action="match2.php" >
+  <form method ="post" action="coach2.php" >
   <div class="container">
 	<div class="row">
 	    <div class="col-md-6 offset-md-3">

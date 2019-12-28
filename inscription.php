@@ -67,6 +67,33 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="name" class="cols-sm-2 control-label">sport1</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="sport1" id="sport1" placeholder="sport1" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name" class="cols-sm-2 control-label">sport2</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="sport2" id="sport2" placeholder="sport2" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name" class="cols-sm-2 control-label">sport3</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="sport3" id="sport3" placeholder="sport3" />
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="form-group ">
                                         <input type="submit" name = "submit" class="btn btn-primary btn-lg btn-block login-button"></button>
                                     </div>

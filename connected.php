@@ -53,8 +53,8 @@
                 <div class="card" style="width: 18rem;">
   <img src="running.jpg" class="card-img-top" alt="running">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">sport</h5>
+    <p class="card-text">trouver un partenaire pour pratiquer votre sport preféré</p>
     <a href="friend.php" class="btn btn-primary">find a friend</a>
   </div>
 </div>
@@ -63,9 +63,9 @@
                 <div class="card" style="width: 18rem;">
   <img src="golf.jpg" class="card-img-top" alt="joueurgolf">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">find a event</a>
+    <h5 class="card-title">coach</h5>
+    <p class="card-text">Des coach disponibles en fonction de votre sport </p>
+    <a href="coach.php" class="btn btn-primary">find a coach</a>
   </div>
 </div>
                 </div>
@@ -75,7 +75,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">find a coach</a>
+    <a href="#" class="btn btn-primary">find a event</a>
   </div>
 </div>
                 </div>

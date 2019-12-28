@@ -17,11 +17,14 @@ if (isset($_POST["submit"])){  //verification champs
     $pseudo = htmlspecialchars($_POST['pseudo']);
     $email = htmlspecialchars($_POST['email']);
     $password = htmlspecialchars($_POST['password']);
+    $sport1 = htmlspecialchars($_POST['sport1']);
+    $sport2 = htmlspecialchars($_POST['sport2']);
+    $sport3 = htmlspecialchars($_POST['sport3']);
       
 // champs ok , insertion bdd
-    if (isset($_POST['name'],$_POST['email'],$_POST['pseudo'],$_POST['password']))
+    if (isset($_POST['name'],$_POST['email'],$_POST['pseudo'],$_POST['password'],$_POST['sport1']))
     {
-        $rec=$bdd->exec ("INSERT INTO membres (name, pseudo, email, password) VALUES('$name','$pseudo','$email','$password')");
+        $rec=$bdd->exec ("INSERT INTO membres (name, pseudo, email, password, sport1, sport2, sport3) VALUES('$name','$pseudo','$email','$password','$sport1','$sport2','$sport3')");
         require("connection.php");
     }
     
