@@ -1,0 +1,11 @@
+html{
+    background-image: url("bike.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    background-image: url("bike.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
