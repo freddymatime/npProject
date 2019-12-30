@@ -15,7 +15,7 @@
       
     <header>
 
-
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,15 +38,18 @@
                </ul>
            </div>
     </nav>
+-->
     <br> 
 
         <div class="container">
             <div class="row" >
-                <div class ="col-lg-12">
-                    <h1> FREE WAY</h1>
+                <div class ="col-lg-12" >
+                    <h1  class="text-warning"> FREE WAY</h1>
                 </div>
             </div>
         </div>
+        sport trouver un
+ partenaire pour pratiquer votre sport preféré
           <br>
         <div class = "container">
             <div class ="row">
@@ -54,8 +57,8 @@
                 <div class="card" style="width: 18rem;">
   <img src="running.jpg" class="card-img-top" alt="running">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">SPORT</h5>
+    <p class="card-text">trouver un partenaire pour pratiquer votre sport preféré</p>
     <a href="" class="btn btn-primary">find a friend</a>
   </div>
 </div>
@@ -64,9 +67,11 @@
                 <div class="card" style="width: 18rem;">
   <img src="golf.jpg" class="card-img-top" alt="joueurgolf">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">find a event</a>
+  coach
+Des coach disponibles en fonction de votre sport
+    <h5 class="card-title">COACH</h5>
+    <p class="card-text"> Des coachs disponibles en fonction de votre sport</p>
+    <a href="#" class="btn btn-primary">find a coach</a>
   </div>
 </div>
                 </div>
