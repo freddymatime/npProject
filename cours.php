@@ -157,4 +157,65 @@ $position = array_search('Banane', $fruits);
 echo '"Banane" se trouve en position ' . $position;
 ?>
 ----------------------------------------------------------------
+______________________________________________________________________________
 
+
+<?php
+$nombre_de_lignes = 1;
+
+while ($nombre_de_lignes <= 100)
+{
+    echo 'Ceci est la ligne n°' . $nombre_de_lignes . '<br />';
+    $nombre_de_lignes++;
+}
+?>
+--------------------------------------------------------
+
+<?php
+for ($nombre_de_lignes = 1; $nombre_de_lignes <= 100; $nombre_de_lignes++)
+{
+    echo 'Ceci est la ligne n°' . $nombre_de_lignes . '<br />';
+}
+?>
+______________________________________________________________________________________________
+
+FONCTION
+
+<?php
+$volume = calculCube(4);
+?>
+--------------
+<?php
+$phrase = 'Bonjour tout le monde ! Je suis une phrase !';
+$longueur = strlen($phrase);
+ 
+ 
+echo 'La phrase ci-dessous comporte ' . $longueur . ' caractères :<br />' . $phrase;
+?>
+--------------------
+<?php
+$ma_variable = str_replace('b', 'p', 'bim bam boum');
+ 
+echo $ma_variable;
+?>
+--------------------------
+<?php
+$chaine = 'Cette chaîne va être mélangée !';
+$chaine = str_shuffle($chaine);
+ 
+echo $chaine;
+?>
+--------------------------
+<?php
+// Enregistrons les informations de date dans des variables
+
+$jour = date('d');
+$mois = date('m');
+$annee = date('Y');
+
+$heure = date('H');
+$minute = date('i');
+
+// Maintenant on peut afficher ce qu'on a recueilli
+echo 'Bonjour ! Nous sommes le ' . $jour . '/' . $mois . '/' . $annee . 'et il est ' . $heure. ' h ' . $minute;
+?>
