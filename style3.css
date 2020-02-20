@@ -1,0 +1,9 @@
+body{
+    background-image: url("start.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align:center ;
+}

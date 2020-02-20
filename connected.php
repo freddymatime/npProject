@@ -1,12 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-         
-    <!-- page hors connection avec acces inscription et connection  -->
+    <!--page principale apres connection  -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel= "stylesheet" href="style.css">
     <title>Free Way</title>
@@ -15,7 +14,7 @@
       
     <header>
 
-    <!--
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,18 +37,15 @@
                </ul>
            </div>
     </nav>
--->
     <br> 
 
         <div class="container">
             <div class="row" >
-                <div class ="col-lg-12" >
-                    <h1  class="text-warning"> FREE WAY</h1>
+                <div class ="col-lg-12">
+                    <h1> FREE WAY</h1>
                 </div>
             </div>
         </div>
-        sport trouver un
- partenaire pour pratiquer votre sport preféré
           <br>
         <div class = "container">
             <div class ="row">
@@ -57,9 +53,9 @@
                 <div class="card" style="width: 18rem;">
   <img src="running.jpg" class="card-img-top" alt="running">
   <div class="card-body">
-    <h5 class="card-title">SPORT</h5>
+    <h5 class="card-title">sport</h5>
     <p class="card-text">trouver un partenaire pour pratiquer votre sport preféré</p>
-    <a href="" class="btn btn-primary">find a friend</a>
+    <a href="friend.php" class="btn btn-primary">find a friend</a>
   </div>
 </div>
                 </div>
@@ -67,11 +63,9 @@
                 <div class="card" style="width: 18rem;">
   <img src="golf.jpg" class="card-img-top" alt="joueurgolf">
   <div class="card-body">
-  coach
-Des coach disponibles en fonction de votre sport
-    <h5 class="card-title">COACH</h5>
-    <p class="card-text"> Des coachs disponibles en fonction de votre sport</p>
-    <a href="#" class="btn btn-primary">find a coach</a>
+    <h5 class="card-title">coach</h5>
+    <p class="card-text">Des coach disponibles en fonction de votre sport </p>
+    <a href="coach.php" class="btn btn-primary">find a coach</a>
   </div>
 </div>
                 </div>
@@ -81,7 +75,7 @@ Des coach disponibles en fonction de votre sport
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">find a coach</a>
+    <a href="#" class="btn btn-primary">find a event</a>
   </div>
 </div>
                 </div>
@@ -90,19 +84,7 @@ Des coach disponibles en fonction de votre sport
 
         </div>
 
-    <div class = "container">
-      <div class = "row">
-        <div class ="col-lg-12">
-          <br> <br>
-        <button type="button" class="btn btn-light btn-lg btn-block"><a href="connection.php">connection</a></button>
-        <br>
-        <button type="button" class="btn btn-light btn-lg btn-block"><a href="inscription.php">inscription</a></button>
-        </div>
-        
-
-      </div>
-
-    </div>    
+    
 
 
   
